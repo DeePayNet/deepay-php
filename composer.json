@@ -1,0 +1,27 @@
+{
+  "name": "deepay/deepay-php",
+  "type": "library",
+  "description": "DeePay library for PHP",
+  "version": "1.0.0",
+  "keywords": [
+    "deepay",
+    "bitcoin",
+    "litecoin",
+    "ethereum",
+    "altcoin",
+    "merchant",
+    "gateway",
+    "payment"
+  ],
+  "homepage": "https://deepay.net",
+  "license": "MIT",
+  "require": {
+    "ext-curl": "*",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "DeePay\\": "src/"
+    }
+  }
+}
